@@ -1,6 +1,8 @@
 package codility.Lesson1;
 
 public class BinaryGap {
+    //https://app.codility.com/programmers/lessons/1-iterations/
+
     public static void main(String[] args) {
         System.out.println(solution(9));
         System.out.println(solution(529));

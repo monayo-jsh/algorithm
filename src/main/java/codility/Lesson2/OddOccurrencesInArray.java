@@ -6,6 +6,9 @@ import java.util.Map.Entry;
 import java.util.Objects;
 
 public class OddOccurrencesInArray {
+
+    //https://app.codility.com/programmers/lessons/2-arrays/
+
     public static void main(String[] args) {
         System.out.println(solution(new int[]{9,3,9,3,9,7,9}));
     }

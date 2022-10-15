@@ -7,6 +7,8 @@ import java.util.stream.IntStream;
 
 public class CyclicRotation {
 
+    //https://app.codility.com/programmers/lessons/2-arrays/
+
     public static void main(String[] args) {
         System.out.println(Arrays.toString(solution(new int[]{3, 8, 9, 7, 6}, 3)));
         System.out.println(Arrays.toString(solution(new int[]{0, 0, 0}, 1)));
