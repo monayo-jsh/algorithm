@@ -5,7 +5,7 @@ public class MaxProfit {
     public int solution(int[] A) {
         int maxProfit = 0;
 
-        int minPrice = Integer.MAX_VALUE;
+        int minPrice = A[0];
         for(int dailyPrice : A) {
             if (dailyPrice < minPrice) {
                 minPrice = dailyPrice;
