@@ -34,6 +34,7 @@ public class CountFactors {
      * 50 * 2
      * 100 * 1
      */
+    //시간 복잡도 : O(sqrt(N))
     public int solution(int N) {
         int countFactors = 0;
 
